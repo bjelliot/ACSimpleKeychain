@@ -97,7 +97,7 @@ NSString *const ACKeychainInfo              = @"info";
                                            [username dataUsingEncoding:NSUTF8StringEncoding], (__bridge id)kSecAttrAccount,
                                            [identifier dataUsingEncoding:NSUTF8StringEncoding], (__bridge id)kSecAttrGeneric,
                                            [service dataUsingEncoding:NSUTF8StringEncoding], (__bridge id)kSecAttrService,
-                                           (__bridge  id)kSecAttrAccessibleAlways, (__bridge id)kSecAttrAccessible,
+                                           (__bridge  id)kSecAttrAccessibleAfterFirstUnlock, (__bridge id)kSecAttrAccessible,
                                            nil];
         [dictionary setValue:[password dataUsingEncoding:NSUTF8StringEncoding] forKey:(__bridge id)kSecValueData];
         NSMutableData *miscData = [NSMutableData data];
