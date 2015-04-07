@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Alex Chugunov' => 'alex.chugunov@gmail.com' }
 
   s.source   = { :git =>
-  'https://github.com/alexchugunov/ACSimpleKeychain.git', :tag => '0.3' }
+  'https://github.com/stealzinc/ACSimpleKeychain.git', :tag => '0.3' }
   s.platform = :ios
   s.requires_arc = true
   s.source_files = 'ACSimpleKeychain/**/*.{h,m}'
